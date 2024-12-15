@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "images-2-ppt-tool"
+version = "0.1.0"
+description = ""
+authors = ["MoonJam <wu.messi.wu@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+python-pptx = "^1.0.2"
+pillow = "^11.0.0"
+tqdm = "^4.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
